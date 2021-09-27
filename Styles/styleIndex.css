@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/fondo.png);
+	background-size: cover;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+form {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+	background: rgb(43, 42, 42);
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	width: 400px;
+	margin-left: 450px;
+}
+
+.all input[type='text'] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 15px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.content1 {
+	border: 0;
+	text-align: center;
+	border: 2px solid #3498db;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.content1:hover {
+	border-color: #2ecc71;
+}
+
+.content2 {
+	border: 0;
+	text-align: center;
+	border: 2px solid #3498db;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.content2:hover {
+	border-color: #2ecc71;
+}
+
+.content3 {
+	border: 0;
+	text-align: center;
+	border: 2px solid #3498db;
+	width: 300px;
+	height: 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.content3 select {
+	margin-top: 8px;
+}
+
+.content3:hover {
+	border-color: #2ecc71;
+}
+
+.all input[type='text']:focus {
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.all input[type='email']:focus {
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.all input[type='submit'] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.all input[type='submit']:hover {
+	background: #2c8350;
+	box-shadow: 0 0 10px #2c8350, 0 0 20px #2c8350, 0 0 40px #2c8350;
+	transition: 0.5s;
+}
+
+.tituloP {
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	background: #ccc;
+	background: linear-gradient(90deg, rgb(224, 29, 15), rgb(29, 255, 199));
+	font-size: 35px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.all input[type='email'] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 15px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+@media screen and (max-width: 1024px) {
+	form {
+		justify-content: center;
+	}
+}
+
+/* @media screen and (max-width: 1978px) {
+	form {
+	}
+} */
+
+@media screen and (max-width: 900px) {
+	form {
+		display: flex;
+		justify-content: center;
+	}
+}

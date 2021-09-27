@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/styleIndex.css">
+    <title> Actividad De Formulario</title>
+</head>
+<body>
+<section>
+    <form action="#">
+        <div class="all">
+            <h1 class="tituloP"> Formulario </h1>
+        <input type="text" id="nombre" name="nombreCompleto" placeholder="Escriba su nombre"  required maxlength="15"/>
+        <input type="email" id="email" placeholder="Ejample@ejemplo.com" required/>
+        <div class="content1">
+     <label for="turno" class="tituloE">Elija que turno quiere: </label>
+        <br>
+        <label for="turnoM" class="LabelTurno">Turno mañana</label>
+        <input type="radio" id="turnoM" name="turno" value="mañana">
+​           <br>
+        <label for="turnoT" class="LabelTurno">Turno tarde</label>
+        <input type="radio" id="turnoT" name="turno" value="tarde">
+​         <br>
+        <label for="turnoN" class="LabelTurno">Turno noche</label>
+        <input type="radio" id="turnoN" name="turno" value="noche">
+        </div>
+        <br>
+​       <br>
+        <div class="content2">
+        <label for="diplomatura" class="tituloE">Indique a que cursos se anota</label>
+        <br>
+        <label for="PWI">Prog.Web.Inicial</label>
+        <input type="checkbox" id="PWI"name="cursos" value="Prog.Web.Inicial">
+​           <br>
+        <label for="PWA">Prog.Web.Avanzado</label>
+        <input type="checkbox" id="PWA" name="cursos" value="Prog.Web.Avanzado">
+        </div>
+
+        <br>
+​          <br>
+        <div class="content3">
+        <label for="nivel">Elija el nivel de conocimiento</label>
+        <select name="nivel" id="nivel" >
+            <option value="inicial">inicial</option>
+            <option value="intermendio">intermendio</option>
+            <option value="avanzado">avanzado</option>
+        </select>
+        </div>
+​
+       <input type="submit" value="Enviar">
+       </div>
+    </form>
+</section>
+    
+</body>
+</html>
